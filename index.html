@@ -1,11 +1,23 @@
 <html>
 <body>
-    <p>
-        <a href="Assets/Schoolhouse_01.usdz"></a>
-    </p>
-    <p>
-        <a href="Assets/Schoolhouse_01.gltf"></a>
-    </p>
-    <p>v0.1</p>
+    <script type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
+      </script>
+    <model-viewer  
+    ar
+    alt="schoolhouse"
+    src="Models/Schoolhouse_01.gltf" 
+    ios-src="Schoolhouse_01.usdz" 
+    style="width:800px;height:1000px;"                  
+                  
+                  background-color="#70BCD1"
+                  shadow-intensity="0.7"
+                  camera-controls
+                  interaction-prompt="auto"
+                  auto-rotate ar magic-leap>
+                  
+    
+    </model-viewer>
+    <p>v0.2</p>
 </body>
 </html>
