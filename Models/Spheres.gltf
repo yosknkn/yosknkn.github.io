@@ -1,0 +1,327 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5123,
+      "count": 2304,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "glTF Tools for Unity",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 4120
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4120,
+      "byteLength": 4120
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 8240,
+      "byteLength": 6180
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 14420,
+      "byteLength": 8240
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 22660,
+      "byteLength": 6180
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 28840,
+      "byteLength": 4608
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "Spheres.bin",
+      "byteLength": 33448
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "TEXCOORD_0": 0,
+            "TEXCOORD_1": 1,
+            "NORMAL": 2,
+            "TANGENT": 3,
+            "POSITION": 4
+          },
+          "indices": 5,
+          "material": 0
+        }
+      ],
+      "name": "Sphere"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.9734455,
+          0.9559735,
+          0.913099,
+          1.0
+        ],
+        "metallicFactor": 0.787412345,
+        "roughnessFactor": 0.100000024
+      },
+      "name": "Silber"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.913099,
+          0.686685443,
+          0.194617867,
+          1.0
+        ],
+        "metallicFactor": 0.787412345,
+        "roughnessFactor": 0.100000024
+      },
+      "name": "Gold"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.9559735,
+          0.799102962,
+          0.309468955,
+          1.0
+        ],
+        "metallicFactor": 0.787412345,
+        "roughnessFactor": 0.100000024
+      },
+      "name": "Brass"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.9559735,
+          0.5209957,
+          0.356400251,
+          1.0
+        ],
+        "metallicFactor": 0.787412345,
+        "roughnessFactor": 0.100000024
+      },
+      "name": "Coper"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5583406,
+          0.577580631,
+          0.577580631,
+          1.0
+        ],
+        "metallicFactor": 0.787412345,
+        "roughnessFactor": 0.100000024
+      },
+      "name": "Iron"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.67244333,
+          0.637597,
+          0.5840786,
+          1.0
+        ],
+        "metallicFactor": 0.787412345,
+        "roughnessFactor": 0.100000024
+      },
+      "name": "Platinum"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.913099,
+          0.921582043,
+          0.921582043,
+          1.0
+        ],
+        "metallicFactor": 0.787412345,
+        "roughnessFactor": 0.100000024
+      },
+      "name": "Aluminium"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "translation": [
+        -5.69465876,
+        -2.00946736,
+        0.113
+      ],
+      "name": "Sphere"
+    },
+    {
+      "mesh": 0,
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "translation": [
+        -5.69465876,
+        -2.00946736,
+        4.828966
+      ],
+      "name": "Sphere (1)"
+    },
+    {
+      "mesh": 0,
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "translation": [
+        -5.69465876,
+        -2.00946736,
+        3.985
+      ],
+      "name": "Sphere (2)"
+    },
+    {
+      "mesh": 0,
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "translation": [
+        -5.69465876,
+        -2.00946736,
+        3.182
+      ],
+      "name": "Sphere (3)"
+    },
+    {
+      "mesh": 0,
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "translation": [
+        -5.69465876,
+        -2.00946736,
+        2.408
+      ],
+      "name": "Sphere (4)"
+    },
+    {
+      "mesh": 0,
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "translation": [
+        -5.69465876,
+        -2.00946736,
+        1.689
+      ],
+      "name": "Sphere (5)"
+    },
+    {
+      "mesh": 0,
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "translation": [
+        -5.69465876,
+        -2.00946736,
+        0.865
+      ],
+      "name": "Sphere (6)"
+    },
+    {
+      "children": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "translation": [
+        5.69465876,
+        3.00946736,
+        -4.828966
+      ],
+      "name": "Spheres"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        7
+      ]
+    }
+  ]
+}
