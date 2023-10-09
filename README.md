@@ -1,2 +1,2 @@
-# yokenkn.github.io
-https://yokenkn.github.io/
+# pages.yosknkn.net
+https://pages.yosknkn.net/
