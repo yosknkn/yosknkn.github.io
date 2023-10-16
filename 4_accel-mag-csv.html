@@ -19,10 +19,12 @@
     <p> min y: <span id="ymin">0</span> </p>
     <p> max y: <span id="ymax">0</span> </p>
     <p> ave y: <span id="yave">0</span> </p>
+    <p> sd y: <span id="ysd">0</span> </p>
 
     <p> min z: <span id="zmin">0</span> </p>
     <p> max z: <span id="zmax">0</span> </p>
     <p> ave z: <span id="zave">0</span> </p>
+    <p> sd z: <span id="zsd">0</span> </p>
 
   <h2>Acceleration</h2>
   <p> X: <span id="accel-x">0</span> </p>
@@ -178,15 +180,15 @@
       featureExtraction();
 
       //Let's classify the activity!
-      var current_activity = classify();
-      $('#current_result').text(current_activity);
+      // var current_activity = classify();
+      // $('#current_result').text(current_activity);
 
       //clear the raw sensor data
       xdata = [];
       ydata = [];
       zdata = [];
       //Clear the textarea 
-      $('#raw-data').empty();
+      // $('#raw-data').empty();
       //Counter back to 0
       num_data = 0;
     }
