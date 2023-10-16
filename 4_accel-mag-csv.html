@@ -211,7 +211,7 @@
 
     var dist =0;
     ydata.forEach((x, i) => dist += (x - yave) ** 2)
-    ysd= Math.sqrt(dist / ydata.length); $('#xsd').text(ysd);
+    ysd= Math.sqrt(dist / ydata.length); $('#ysd').text(ysd);
 
     zmax = Math.max.apply(Math, zdata); $('#zmax').text(zmax);
     zmin = Math.min.apply(Math, zdata); $('#zmin').text(zmin);
@@ -219,7 +219,7 @@
 
     var dist =0;
     zdata.forEach((x, i) => dist += (x - zave) ** 2)
-    zsd= Math.sqrt(dist / zdata.length); $('#xsd').text(zsd);
+    zsd= Math.sqrt(dist / zdata.length); $('#zsd').text(zsd);
 }
 
   ////////////////////////////////////////////////////////////////////
