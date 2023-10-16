@@ -194,6 +194,8 @@
     }
   }
 
+  const arrAvg = arr => arr.reduce((a,b) => a + b, 0) / arr.length
+
   function featureExtraction(){
     xmin = Math.min.apply(Math, xdata); $('#xmin').text(xmin);
     xmax = Math.max.apply(Math, xdata); $('#xmax').text(xmax);
